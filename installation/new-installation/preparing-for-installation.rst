@@ -45,13 +45,16 @@ The next step is moving the main directory to a directory that the HTTP server c
 |schritt| Customising file and directory permissions
 ----------------------------------------------------
 
-The HTTP server requires write access to the following directories and their subdirectories at runtime:
+The HTTP server requires read and write access to the following directories and their subdirectories at runtime:
 
 :file:`/source/export` |br|
 :file:`/source/log/` |br|
 :file:`/source/out/pictures/` |br|
 :file:`/source/out/media/` |br|
-:file:`/source/tmp/`
+:file:`/source/tmp/` |br|
+:file:`/var`
+
+Additionally the CLI user requires read and write access to the directory :file:`/var`.
 
 For the web-based setup, the HTTP server must have write access to the following directory and files:
 
