@@ -7,7 +7,7 @@ Der *Subshop* ist ein Shop ohne spezielle Eigenschaften. Er kann die Artikel und
 
 Der *Supershop* kann ebenfalls Artikel und Einstellungen von einem Elternshop erben und sie an neue Shops weitergeben. In einem Supershop besteht darüber hinaus die Möglichkeit, Artikel, Attribute, Auswahllisten u.a. mit jedem Shop zu verknüpfen. Das gilt auch für den Hauptshop und für Subshops, für den der Supershop nicht Elternshop ist.
 
-Der *Multishop* kommt ohne Vererbung aus, denn er zeigt alle Artikel, Hersteller und Lieferanten aus allen Shops an. Als einziger Shoptyp kann er alle Kategorien aus anderen Shops übernehmen. Für Nachrichten kann gewählt werden, ob wir wollen, dass unser Multishop alle Nachrichten von anderen Geschäften übernimmt oder nicht.
+Der *Multishop* kommt ohne Vererbung aus, denn er zeigt alle Artikel, Hersteller und Lieferanten aus allen Shops an. Als einziger Shoptyp kann er alle Kategorien aus anderen Shops übernehmen. Für Nachrichten kann festgelegt werden, ob der Multishop sämtliche Nachrichten aus allen Shops oder shopspezifische Nachrichten anzeigen soll.
 
 .. image:: ../../media/screenshots/oxbagn01.png
    :alt: Neuen Shop anlegen
@@ -33,7 +33,7 @@ Ein neuer Shop kann unter :menuselection:`Stammdaten --> Grundeinstellungen` ang
 
 Wird beim Anlegen eines neuen Shops nicht Supershop oder Multishop als Shoptyp gewählt, entsteht ein Subshop.
 
-Unter :menuselection:`Stammdaten --> Grundeinstellungen` können auf der Registerkarte :guilabel:`Mall` für den Shop Einstellungen zur Mall-Funktion vorgenommen werden. Die Einstellmöglichkeiten sind für alle Shoptypen nahezu identisch. Es gibt nur zwei zusätzliche Optionen für Multishops, die erste ist die Option, alle Kategorien aus allen Shops zu laden, die zweite ist die Option, zu wählen, ob wir alle Nachrichten aus anderen Shops in unserem Multishop haben wollen oder nicht. Wurden Artikel, Attribute, Auswahllisten sowie andere Elemente und Einstellungen von einem Elternshop geerbt, zeigt die Registerkarte auch die Vererbungseinstellungen an.
+Unter :menuselection:`Stammdaten --> Grundeinstellungen` können auf der Registerkarte :guilabel:`Mall` für den Shop Einstellungen zur Mall-Funktion vorgenommen werden. Die Einstellmöglichkeiten sind für alle Shoptypen nahezu identisch. Für Multishops gibt es zwei zusätzliche Optionen. Es kann zum einen festgelegt werden, alle Kategorien aus allen Shops zu übernehmen. Zum anderen gibt es die Möglichkeit, shopspezifische Nachrichten anzuzeigen, anstatt alle Nachrichten aus allen Shops. Wurden Artikel, Attribute, Auswahllisten sowie andere Elemente und Einstellungen von einem Elternshop geerbt, zeigt die Registerkarte auch die Vererbungseinstellungen an.
 
 .. image:: ../../media/screenshots/oxbagn02.png
    :alt: Multishop - Registerkarte Mall
@@ -64,5 +64,6 @@ Es ist nicht möglich, die verschiedenen Shops über Pfade in der URL zu struktu
 
 :guilabel:`Indiv. Preis für vererbte Artikel erlauben`
    Soll dieser Shop einmal seine Artikel und Einstellungen an andere Shops vererben, welche die Artikel mit individuellen Preisen anbieten sollen, aktivieren Sie bitte dieses Kontrollkästchen. Artikel- und Staffelpreise können dann in den jeweiligen Shops angepasst werden. Alle übrigen Eigenschaften der Artikel sind nicht änderbar.
+
 
 .. Intern: oxbagn, Status:
