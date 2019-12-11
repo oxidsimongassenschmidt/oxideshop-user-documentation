@@ -1,5 +1,5 @@
 ﻿Subshops, supershops & multishops
-==================================
+=================================
 
 When you create a shop, you will need to define which shop type the new shop is part of and whether it should inherit products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors and other elements from a parent shop. Available shop types are subshop, supershop and multishop.
 
@@ -7,7 +7,7 @@ When you create a shop, you will need to define which shop type the new shop is 
 
 *Supershop* can also inherit products and settings from a parent shop and pass them on to new shops. In addition, supershop allows you to assign products, attributes, selection lists, etc. to each shop. This also applies to the main shop and to subshops, for which the supershop is not the parent shop.
 
-*Multishop* comes without the inheritance feature because it displays all products, manufacturers and distributors from all shops. It is the only shop type that can load all categories from other shops. About news, we can choose if we want our multishop to inherit all the news from other shops or not.
+*Multishop* comes without the inheritance feature because it displays all products, manufacturers and distributors from all shops. It is the only shop type that can load all categories from other shops. You can specify whether the multishop should display all news from all shops or only shop specific news.
 
 .. image:: ../../media/screenshots/oxbagn01.png
    :alt: Create New Shop
@@ -33,7 +33,7 @@ Check this box to create a multishop shop type.
 
 If you don’t select supershop or multishop as shop type when creating a new shop, a subshop will be created.
 
-Settings for the shop’s Mall function can be configured under :menuselection:`Master Settings --> Core Settings` in the :guilabel:`Mall` tab. They are almost identical for all shop types. There are only two additional options for multishops, the first one is the option to load all categories from all shops, the second one is the option to choose if we want to have all the news from other shops in our multishop or not. If products, attributes, selection lists and other elements and settings were inherited from a parent shop, the tab will also display the inheritance settings.
+Settings for the shop’s Mall function can be configured under :menuselection:`Master Settings --> Core Settings` in the :guilabel:`Mall` tab. They are almost identical for all shop types. There are two additional options for multishops: on the one hand you can define if to take over all categories from all shops. On the other hand, there is the possibility to display shop specific news instead of news from all shops. If products, attributes, selection lists and other elements and settings were inherited from a parent shop, the tab will also display the inheritance settings.
 
 .. image:: ../../media/screenshots/oxbagn02.png
    :alt: Multishop - Mall tab
@@ -65,4 +65,5 @@ In general, you can set an absolute or a percentage surcharge on product prices 
 :guilabel:`Allow custom price editing for inherited products` |br|
 Please check this box if the shop’s products and settings should be passed onto other shops that offer products with individual prices. This will allow you to adjust product and scale prices in the respective shops. None of the other product characteristics can be changed.
 
-.. Intern: oxbagn, Status:
+
+.. Intern: oxbagn, Status: transL
